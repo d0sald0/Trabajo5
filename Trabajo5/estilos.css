@@ -1,0 +1,63 @@
+/*================================== fuentes =======================*/
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+/*============================= var ==============================*/
+::root{
+    --bg-color: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,121,58,1) 0%, rgba(0,255,226,1) 100%);
+    --tipo-letra:'Fruktur', cursive,;
+}
+
+
+*{
+    font-family: "Times";
+}
+body{
+    background:var(--tipo-letra);
+}
+#coño{
+    height: 150px;
+    background-color:rgb(0, 22, 216);
+    width: 100%;
+    text-align: center;
+}
+#fotoarriba{
+    width: 50px;
+    
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: white;
+}
+b{
+    color: black;
+}
+#colorb{
+    color: white;
+}
+.contenedor{
+    margin: 5% auto;
+    width: 90%;
+}
+.eso{
+    background-color: red;
+    padding: 1%;
+    margin: 1%;
+    margin-bottom: 10%;
+}
+#margen{
+    margin: 2%;
+}
+.iconos{
+    float:left;
+}
+#p{
+    text-align: left;
+}
+.minombre{
+    font-size: 20px;
+    float:left;
+    color: aliceblue;
+    padding-left: 15px;
+}
